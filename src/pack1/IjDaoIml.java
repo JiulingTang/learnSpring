@@ -8,4 +8,5 @@ public class IjDaoIml implements IjDao {
 	public void save(){
 		System.out.println("this is ijdao");
 	}
+	
 }

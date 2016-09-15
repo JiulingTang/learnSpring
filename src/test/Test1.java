@@ -17,7 +17,7 @@ public class Test1 {
 	ClassPathXmlApplicationContext ctx;
 	@Test
 	public void test() throws IOException {
-		IjserviceIml iml=(IjserviceIml)ctx.getBean("ijserviceIml");
+		IjserviceIml iml=(IjserviceIml)ctx.getBean("ijService");
 		iml.save();
 		//System.out.println(ctx.getResource("url:http://www.indeed.ca/").contentLength());
 	}
